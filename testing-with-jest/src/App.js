@@ -7,8 +7,14 @@ import InputBox from './TestingComponent/InputBox';
 import ButtonBox from './TestingComponent/ButtonBox';
 import FunctionComponentTest from './TestingComponent/FunctionComponentTest';
 import RTLQuery from './TestingComponent/RTLQuery';
-
+import FindBy from './TestingComponent/FindBy';
+import KeyBoardOnChange from './TestingComponent/KeyBoardOnChange';
+import PropsTesting from './TestingComponent/PropsTesting';
+import functionProps from './TestingComponent/functionProps';
 function App() {
+  const testFunction=()=>{
+
+  }
   return (
     <div className="App">
       <p>React Testing </p>
@@ -16,7 +22,11 @@ function App() {
       {/* <ButtonBox/> */}
       {/* <Users/> */}
       {/* <FunctionComponentTest/> */}
-      <RTLQuery/>
+      {/* <RTLQuery/> */}
+      {/* <FindBy/> */}
+      {/* <KeyBoardOnChange/> */}
+      {/* <PropsTesting name="Poshan"/> */}
+      <functionProps/>
     </div>
   );
 }
